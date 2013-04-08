@@ -5,7 +5,7 @@
  * Created with https://github.com/schmunk42/database-command
  */
 
-class m130408_125548_demo_data extends CDbMigration {
+class m130408_155730_demo_data extends CDbMigration {
 
 	public function safeUp() {
         if (Yii::app()->db->schema instanceof CMysqlSchema) {
@@ -369,43 +369,7 @@ class m130408_125548_demo_data extends CDbMigration {
 
         // Data for table 'p3_widget'
         $this->insert("p3_widget", array(
-            "id"=>"7",
-            "alias"=>"CWidget",
-            "rank"=>"0",
-            "containerId"=>"top",
-            "moduleId"=>"p3pages",
-            "controllerId"=>"default",
-            "actionName"=>"page",
-            "requestParam"=>"7",
-            "sessionParam"=>"",
-        ) );
-
-        $this->insert("p3_widget", array(
-            "id"=>"9",
-            "alias"=>"CWidget",
-            "rank"=>"10",
-            "containerId"=>"top",
-            "moduleId"=>"",
-            "controllerId"=>"site",
-            "actionName"=>"index",
-            "requestParam"=>"",
-            "sessionParam"=>"",
-        ) );
-
-        $this->insert("p3_widget", array(
-            "id"=>"13",
-            "alias"=>"IntroJs",
-            "rank"=>"0",
-            "containerId"=>"main",
-            "moduleId"=>"",
-            "controllerId"=>"site",
-            "actionName"=>"index",
-            "requestParam"=>"",
-            "sessionParam"=>"",
-        ) );
-
-        $this->insert("p3_widget", array(
-            "id"=>"104",
+            "id"=>"105",
             "alias"=>"CWidget",
             "rank"=>"0",
             "containerId"=>"top",
@@ -573,7 +537,7 @@ class m130408_125548_demo_data extends CDbMigration {
             "superuser"=>"1",
             "status"=>"1",
             "create_at"=>"2013-03-26 08:54:53",
-            "lastvisit_at"=>"2013-04-08 12:22:18",
+            "lastvisit_at"=>"2013-04-08 15:36:19",
         ) );
 
         $this->insert("usr_users", array(
@@ -593,7 +557,7 @@ class m130408_125548_demo_data extends CDbMigration {
 
         // Data for table 'p3_widget_meta'
         $this->insert("p3_widget_meta", array(
-            "id"=>"7",
+            "id"=>"105",
             "status"=>"30",
             "type"=>null,
             "language"=>"_ALL",
@@ -609,89 +573,11 @@ class m130408_125548_demo_data extends CDbMigration {
             "checkAccessRead"=>null,
             "checkAccessUpdate"=>null,
             "checkAccessDelete"=>null,
-            "createdAt"=>"2013-03-26 16:17:00",
+            "createdAt"=>"2013-04-08 15:55:53",
             "createdBy"=>"1",
             "modifiedAt"=>null,
             "modifiedBy"=>null,
-            "guid"=>"092E274C-AA8E-4495-98C3-190569923763",
-            "ancestor_guid"=>null,
-            "model"=>"P3Widget",
-        ) );
-
-        $this->insert("p3_widget_meta", array(
-            "id"=>"9",
-            "status"=>"30",
-            "type"=>null,
-            "language"=>"_ALL",
-            "treeParent_id"=>null,
-            "treePosition"=>null,
-            "begin"=>null,
-            "end"=>null,
-            "keywords"=>null,
-            "customData"=>null,
-            "label"=>null,
-            "owner"=>"1",
-            "checkAccessCreate"=>null,
-            "checkAccessRead"=>null,
-            "checkAccessUpdate"=>null,
-            "checkAccessDelete"=>null,
-            "createdAt"=>"2013-03-26 17:11:07",
-            "createdBy"=>"1",
-            "modifiedAt"=>"2013-04-03 14:26:11",
-            "modifiedBy"=>"1",
-            "guid"=>"610BD9EA-80D9-4E60-99D8-73A75CF54733",
-            "ancestor_guid"=>null,
-            "model"=>"P3Widget",
-        ) );
-
-        $this->insert("p3_widget_meta", array(
-            "id"=>"13",
-            "status"=>"30",
-            "type"=>null,
-            "language"=>"_ALL",
-            "treeParent_id"=>null,
-            "treePosition"=>null,
-            "begin"=>null,
-            "end"=>null,
-            "keywords"=>null,
-            "customData"=>null,
-            "label"=>null,
-            "owner"=>"1",
-            "checkAccessCreate"=>null,
-            "checkAccessRead"=>null,
-            "checkAccessUpdate"=>null,
-            "checkAccessDelete"=>null,
-            "createdAt"=>"2013-04-02 15:09:14",
-            "createdBy"=>"1",
-            "modifiedAt"=>null,
-            "modifiedBy"=>null,
-            "guid"=>"BF42D0E4-1F13-42AC-AEFA-E178B9C7602B",
-            "ancestor_guid"=>null,
-            "model"=>"P3Widget",
-        ) );
-
-        $this->insert("p3_widget_meta", array(
-            "id"=>"104",
-            "status"=>"30",
-            "type"=>null,
-            "language"=>"_ALL",
-            "treeParent_id"=>null,
-            "treePosition"=>null,
-            "begin"=>null,
-            "end"=>null,
-            "keywords"=>null,
-            "customData"=>null,
-            "label"=>null,
-            "owner"=>"13",
-            "checkAccessCreate"=>null,
-            "checkAccessRead"=>null,
-            "checkAccessUpdate"=>null,
-            "checkAccessDelete"=>null,
-            "createdAt"=>"2013-04-08 12:22:17",
-            "createdBy"=>"13",
-            "modifiedAt"=>null,
-            "modifiedBy"=>null,
-            "guid"=>"FB0A39EF-A7B7-42FD-8F8F-0CA98BC0BB67",
+            "guid"=>"CEDF9447-1F44-41A2-86B9-16F79E94D5E2",
             "ancestor_guid"=>null,
             "model"=>"P3Widget",
         ) );
@@ -861,6 +747,171 @@ class m130408_125548_demo_data extends CDbMigration {
             "language"=>"en",
             "properties"=>"{\"data\":{},\"actionPrefix\":\"NULL\",\"skin\":\"default\"}",
             "content"=>"TEST TEST TEST",
+        ) );
+
+        $this->insert("p3_widget_translation", array(
+            "id"=>"10",
+            "p3_widget_id"=>"105",
+            "language"=>"de",
+            "properties"=>"{\"actionPrefix\":\"NULL\",\"skin\":\"default\"}",
+            "content"=>"<div data-intro=\"Hello step one!\" data-step=\"1\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;padding:20px;margin-bottom:20px;\">
+	<img src=\"https://raw.github.com/waalzer/app-demo-data/f8379e8e4bd4a5150f08c0666d75ca91212a8f9a/images/phundament.png\" style=\"float:left;margin-right:20px;margin-bottom:10px;\" />
+	<h1>
+		Welcome to Phundament 3!</h1>
+	<h3>
+		You will like it.</h3>
+	<p>
+		<a href=\"https://github.com/phundament/\" target=\"_blank\">View on GitHub</a> | <a href=\"https://github.com/phundament/app/wiki\" target=\"_blank\">The Definitive Guide</a> |&nbsp;<a href=\"http://phundament.com/\" target=\"_blank\">Phundament Homepage</a></p>
+</div>
+<div class=\"row\">
+	<div class=\"span4\" data-intro=\"Hello step one!\" data-step=\"2\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;margin-bottom:20px;\">
+		<div style=\"padding:10px;\">
+			<h1>
+				Login</h1>
+			<p>
+				Login with&nbsp;<code>admin/admin</code></p>
+			<p>
+				<img alt=\"\" src=\"https://raw.github.com/waalzer/app-demo-data/f8379e8e4bd4a5150f08c0666d75ca91212a8f9a/images/login.png\" /></p>
+		</div>
+	</div>
+	<div class=\"span4\" data-intro=\"Hello step one!\" data-step=\"3\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;margin-bottom:20px;\">
+		<div style=\"padding:10px;\">
+			<h1>
+				Create Pages</h1>
+			<p>
+				<strong>Create index</strong></p>
+			<p>
+				Log in and go to Sitemap in the top menu. Click <span class=\"label label-error\">Create</span>&nbsp;then&nbsp;<span class=\"label label-error\">Text input</span> and paste <code>{&quot;route&quot;:&quot;/site/index&quot;}</code>&nbsp;in the text box to add this page as index.</p>
+			<p>
+				Select Layout <span class=\"label label-error\">_TbNavbar</span> and save the page.</p>
+			<p>
+				<strong>Create Child Page</strong></p>
+			<p>
+				Go to your index page. Click <span class=\"label label-error\">Append Child Page</span> in the top menu. Select&nbsp;<span class=\"label label-error\">Main Layout</span> and save.</p>
+			<p>
+				<strong>Add translation</strong></p>
+			<p>
+				You will see * after the pages name in the top menu because there isn&#39;t any translation for it. Add one by clicking <span class=\"label label-error\">+ Add Translation</span>. Choose language, menu name and page title.</p>
+			<p>
+				<strong>Create Sibling Pages</strong></p>
+			<p>
+				To add more pages at same level in the top menu click <span class=\"label label-error\">Append Sibling Page</span>.</p>
+		</div>
+	</div>
+	<div class=\"span4\" data-intro=\"Hello step one!\" data-step=\"4\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;margin-bottom:20px;\">
+		<div style=\"padding:10px;\">
+			<h1>
+				Create Widgets</h1>
+			<p>
+				<strong>Switch to edit mode</strong></p>
+			<p>
+				Go to a page and switch to the edit mode by clicking the edit icon at the top.</p>
+			<p>
+				<img alt=\"\" src=\"https://raw.github.com/waalzer/app-demo-data/f8379e8e4bd4a5150f08c0666d75ca91212a8f9a/images/topmenubar.png\" style=\"width: 299px; height: 35px;\" /></p>
+			<p>
+				<strong>Create a widget</strong></p>
+			<p>
+				Hover over container top or main and add <span class=\"label label-error\">Basic HTML Widget</span>.</p>
+			<p>
+				<strong>Add translation and content</strong></p>
+			<p>
+				Then add a translation, type some text in the editor, try to style it and add some media.</p>
+			<p>
+				<strong>See the guide</strong></p>
+			<p>
+				<a href=\"https://github.com/phundament/app/wiki/Pages\" target=\"_blank\">Pages</a>,&nbsp;<a href=\"https://github.com/phundament/app/wiki/Widgets\" target=\"_blank\">Widgets</a>, <a href=\"https://github.com/phundament/app/wiki/Ckeditor\" target=\"_blank\">CKEditor</a> and <a href=\"https://github.com/phundament/app/wiki/Media\" target=\"_blank\">Media</a>.</p>
+		</div>
+	</div>
+</div>
+<div style=\"background:#f3f3f3;border-radius:5px;padding:20px;margin-bottom:20px;\">
+	<h1>
+		Give us some Feedback</h1>
+	<p>
+		<a href=\"https://groups.google.com/forum/?fromgroups#!forum/phundament-dev\" target=\"_blank\">Google Groups</a>&nbsp;| <a href=\"https://plus.google.com/u/0/114873431066202526630/posts\" target=\"_blank\">Google+</a> | <a href=\"https://www.facebook.com/phundament\" target=\"_blank\">Facebook</a>&nbsp;| <a href=\"https://twitter.com/phundament\" target=\"_blank\">Twitter</a>&nbsp;| <a href=\"http://www.yiiframework.com/forum/index.php/topic/24696-extension-phundament\" target=\"_blank\">Yii Forum</a></p>
+</div>
+",
+        ) );
+
+        $this->insert("p3_widget_translation", array(
+            "id"=>"11",
+            "p3_widget_id"=>"105",
+            "language"=>"en",
+            "properties"=>"{\"actionPrefix\":\"NULL\",\"skin\":\"default\"}",
+            "content"=>"<div data-intro=\"Hello step one!\" data-step=\"1\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;padding:20px;margin-bottom:20px;\">
+	<img src=\"https://raw.github.com/waalzer/app-demo-data/f8379e8e4bd4a5150f08c0666d75ca91212a8f9a/images/phundament.png\" style=\"float:left;margin-right:20px;margin-bottom:10px;\" />
+	<h1>
+		Welcome to Phundament 3!</h1>
+	<h3>
+		You will like it.</h3>
+	<p>
+		<a href=\"https://github.com/phundament/\" target=\"_blank\">View on GitHub</a> | <a href=\"https://github.com/phundament/app/wiki\" target=\"_blank\">The Definitive Guide</a> |&nbsp;<a href=\"http://phundament.com/\" target=\"_blank\">Phundament Homepage</a></p>
+</div>
+<div class=\"row\">
+	<div class=\"span4\" data-intro=\"Hello step one!\" data-step=\"2\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;margin-bottom:20px;\">
+		<div style=\"padding:10px;\">
+			<h1>
+				Login</h1>
+			<p>
+				Login with&nbsp;<code>admin/admin</code></p>
+			<p>
+				<img alt=\"\" src=\"https://raw.github.com/waalzer/app-demo-data/f8379e8e4bd4a5150f08c0666d75ca91212a8f9a/images/login.png\" /></p>
+		</div>
+	</div>
+	<div class=\"span4\" data-intro=\"Hello step one!\" data-step=\"3\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;margin-bottom:20px;\">
+		<div style=\"padding:10px;\">
+			<h1>
+				Create Pages</h1>
+			<p>
+				<strong>Create index</strong></p>
+			<p>
+				Log in and go to Sitemap in the top menu. Click <span class=\"label label-error\">Create</span>&nbsp;then&nbsp;<span class=\"label label-error\">Text input</span> and paste <code>{&quot;route&quot;:&quot;/site/index&quot;}</code>&nbsp;in the text box to add this page as index.</p>
+			<p>
+				Select Layout <span class=\"label label-error\">_TbNavbar</span> and save the page.</p>
+			<p>
+				<strong>Create Child Page</strong></p>
+			<p>
+				Go to your index page. Click <span class=\"label label-error\">Append Child Page</span> in the top menu. Select&nbsp;<span class=\"label label-error\">Main Layout</span> and save.</p>
+			<p>
+				<strong>Add translation</strong></p>
+			<p>
+				You will see * after the pages name in the top menu because there isn&#39;t any translation for it. Add one by clicking <span class=\"label label-error\">+ Add Translation</span>. Choose language, menu name and page title.</p>
+			<p>
+				<strong>Create Sibling Pages</strong></p>
+			<p>
+				To add more pages at same level in the top menu click <span class=\"label label-error\">Append Sibling Page</span>.</p>
+		</div>
+	</div>
+	<div class=\"span4\" data-intro=\"Hello step one!\" data-step=\"4\" id=\"login\" style=\"background:#f3f3f3;border-radius:5px;margin-bottom:20px;\">
+		<div style=\"padding:10px;\">
+			<h1>
+				Create Widgets</h1>
+			<p>
+				<strong>Switch to edit mode</strong></p>
+			<p>
+				Go to a page and switch to the edit mode by clicking the edit icon at the top.</p>
+			<p>
+				<img alt=\"\" src=\"https://raw.github.com/waalzer/app-demo-data/f8379e8e4bd4a5150f08c0666d75ca91212a8f9a/images/topmenubar.png\" style=\"width: 299px; height: 35px;\" /></p>
+			<p>
+				<strong>Create a widget</strong></p>
+			<p>
+				Hover over container top or main and add <span class=\"label label-error\">Basic HTML Widget</span>.</p>
+			<p>
+				<strong>Add translation and content</strong></p>
+			<p>
+				Then add a translation, type some text in the editor, try to style it and add some media.</p>
+			<p>
+				<strong>See the guide</strong></p>
+			<p>
+				<a href=\"https://github.com/phundament/app/wiki/Pages\" target=\"_blank\">Pages</a>,&nbsp;<a href=\"https://github.com/phundament/app/wiki/Widgets\" target=\"_blank\">Widgets</a>, <a href=\"https://github.com/phundament/app/wiki/Ckeditor\" target=\"_blank\">CKEditor</a> and <a href=\"https://github.com/phundament/app/wiki/Media\" target=\"_blank\">Media</a>.</p>
+		</div>
+	</div>
+</div>
+<div style=\"background:#f3f3f3;border-radius:5px;padding:20px;margin-bottom:20px;\">
+	<h1>
+		Give us some Feedback</h1>
+	<p>
+		<a href=\"https://groups.google.com/forum/?fromgroups#!forum/phundament-dev\" target=\"_blank\">Google Groups</a>&nbsp;| <a href=\"https://plus.google.com/u/0/114873431066202526630/posts\" target=\"_blank\">Google+</a> | <a href=\"https://www.facebook.com/phundament\" target=\"_blank\">Facebook</a>&nbsp;| <a href=\"https://twitter.com/phundament\" target=\"_blank\">Twitter</a>&nbsp;| <a href=\"http://www.yiiframework.com/forum/index.php/topic/24696-extension-phundament\" target=\"_blank\">Yii Forum</a></p>
+</div>",
         ) );
 
 
@@ -1146,6 +1197,17 @@ class m130408_125548_demo_data extends CDbMigration {
             "seoUrl"=>null,
             "pageTitle"=>"Demo",
             "menuName"=>"Demo",
+            "keywords"=>null,
+            "description"=>null,
+        ) );
+
+        $this->insert("p3_page_translation", array(
+            "id"=>"8",
+            "p3_page_id"=>"11",
+            "language"=>"de",
+            "seoUrl"=>"test",
+            "pageTitle"=>"Test",
+            "menuName"=>"Test",
             "keywords"=>null,
             "description"=>null,
         ) );
